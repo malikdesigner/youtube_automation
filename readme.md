@@ -1,22 +1,9 @@
-# Gmail Account Creation Automation Script
-Automate the process of creating Gmail accounts using Selenium and Chrome WebDriver.
+# Youtube and Gmail Account Creation Automation Script
 
-```
-If you find this repository useful or it has helped you,
-please don't forget to leave a ⭐️, or even follow my GitHub account.
-Your support motivates me to continue providing helpful resources.
-Thank you for your appreciation! 🌟🚀💖😊👍
-
-If you'd like to support further, consider buying me a coffee:
-```
-[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee--yellow.svg?style=for-the-badge&logo=buy-me-a-coffee)](https://www.buymeacoffee.com/kh.abdelhakim)
-
-## Stats
-![Alt](https://repobeats.axiom.co/api/embed/7cdf5ac462f672830b29b9ba0169354897eb3f7c.svg "Repobeats analytics image")
 
 ## Overview
 
-This script allows you to automate the creation of Gmail accounts using the Selenium automation framework with the Chrome WebDriver. It navigates through the Gmail sign-up process by filling in the required details, such as name, username, password, and more.
+This script allows you to automate the creation of Gmail and Youtube accounts using the Selenium automation framework with the Chrome WebDriver. It navigates through the Gmail sign-up process by filling in the required details, such as name, username, password, and more.
 
 ## Prerequisites
 
@@ -29,7 +16,7 @@ This script allows you to automate the creation of Gmail accounts using the Sele
 1. Clone this repository:
 
    ```
-   git clone https://github.com/khaouitiabdelhakim/Gmail-Creation-Automation-Python.git
+   git clone https://github.com/malikdesigner/youtube_automation.git
    ```
 
 2. Download the ChromeDriver executable and place it in the repository directory.
@@ -37,7 +24,7 @@ This script allows you to automate the creation of Gmail accounts using the Sele
 3. Install the required libraries:
 
    ```
-   pip install selenium
+   pip freeze > requirements.txt
    ```
 
 4. Open the script (`gmail_automation.py`) and update the `your_first_name`, `your_last_name`, `your_username`, `your_birthday`, `your_gender`, and `your_password` variables with your desired account details.
